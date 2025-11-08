@@ -459,3 +459,4 @@ rm production.db
 ---
 
 **Built with production best practices** | **Beautiful terminal output** | **Complete MLOps lifecycle**
+- Demo feature added
