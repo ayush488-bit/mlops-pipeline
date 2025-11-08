@@ -1,0 +1,106 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# MLOps artifacts
+*.pkl
+*.joblib
+*.h5
+*.pb
+
+# Data files (keep structure, ignore data)
+2_data_management/data/*.csv
+2_data_management/data/*.json
+!2_data_management/data/.gitkeep
+
+# Model artifacts
+4_model/artifacts/*.pkl
+4_model/artifacts/*.json
+!4_model/artifacts/.gitkeep
+
+# Feature transformers
+3_features/transformers/*.pkl
+3_features/transformers/*.json
+!3_features/transformers/.gitkeep
+
+# Experiment runs
+7_experiments/runs/*.json
+!7_experiments/runs/.gitkeep
+
+# Monitoring logs
+9_monitoring/monitoring_logs/*.json
+9_monitoring/monitoring_logs/*.csv
+!9_monitoring/monitoring_logs/.gitkeep
+
+# Evaluation metrics
+6_evaluation/metrics/*.json
+!6_evaluation/metrics/.gitkeep
+
+# Validated data
+5_validation/validated_data/*
+!5_validation/validated_data/.gitkeep
+
+# Logs
+*.log
+mlops.log
+
+# Environment variables
+.env
+.env.local
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Production database
+production.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Rollback and retrain logs
+rollback_log.json
+retrain_log.json
+
+# Temporary files
+/tmp/
+*.tmp
+
+# OS
+Thumbs.db
